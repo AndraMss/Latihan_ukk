@@ -5,6 +5,14 @@
         <div class="card-body p-0">
             <table class="table table-hover table-striped mb-0 align-middle">
                 <thead class="table-dark">
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Barang</th>
+                        <th>Harga</th>
+                        <th>Diskon (%)</th>
+                        <th>Total Harga</th>
+                        <th>Aksi</th>
+                    </tr>
                 </thead>
                 <tbody>
                     @forelse ($transaksis as $index => $t)
