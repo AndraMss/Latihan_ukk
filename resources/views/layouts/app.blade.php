@@ -27,7 +27,7 @@
                         <a class="nav-link" href="{{ route('transaksi.create') }}">Diskon</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link">Disabled</a>
+                        <a class="nav-link" href="{{ route('transaksi.index') }}">Transaksi</a>
                     </li>
                 </ul>
             </div>
